@@ -21,7 +21,7 @@ log = get_logger(__file__)
 
 @log_func(log)
 def on_start(update: Update, context: CallbackContext):
-    update.message.reply_text(
+    update.effective_message.reply_text(
         'Enter something and the bot will return it as Z̗̱̥̝̔̑ͯͬ̈̍̊Ḁ̪̬̟̾L̗̺̞̎̑͑̑̄̓G͎̰̞̯O̹̹ text'
     )
 
